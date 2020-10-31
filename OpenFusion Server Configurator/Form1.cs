@@ -1,6 +1,7 @@
 ﻿using OpenFusion_Server_Configurator.Definition.Model;
 using OpenFusion_Server_Configurator.Definition.Model.Inheritance;
 using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace OpenFusion_Server_Configurator
@@ -103,6 +104,11 @@ namespace OpenFusion_Server_Configurator
         private void saveBtn_Click(object sender, EventArgs e)
         {
             SaveServerSettings();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/Eperty123/OpenFusion-Server-Configurator");
         }
     }
 }
