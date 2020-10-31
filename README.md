@@ -3,3 +3,6 @@
 
 ## Requirements
 - .NET 4.7.2 runtime.
+
+## Other
+Icon from Iconarchive.com.
